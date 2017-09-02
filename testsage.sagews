@@ -1,8 +1,6 @@
 ︠f3bb6359-0bfa-450b-9b33-757332638da4︠
 
 
-
-
 ︡0dc04ef8-df31-41aa-94c7-b52102467520︡
 ︠0fb7cfb0-c918-4d1f-8ca7-ea5efae1ae87︠
 stats.TimeSeries(1000).randomize('normal').sums().plot()
