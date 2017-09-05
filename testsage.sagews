@@ -1,13 +1,18 @@
 ︠f3bb6359-0bfa-450b-9b33-757332638da4︠
 
-
 ︡0dc04ef8-df31-41aa-94c7-b52102467520︡
 ︠0fb7cfb0-c918-4d1f-8ca7-ea5efae1ae87︠
 stats.TimeSeries(1000).randomize('normal').sums().plot()
 ︡56729667-b50c-457c-b7ba-0a5530a84aa4︡{"file":{"filename":"/home/user/.sage/temp/project-8d32991c-a188-4906-beaf-6d68642444da/1448/tmp_y6CaVF.svg","show":true,"text":null,"uuid":"7347e973-5fc3-4f88-b1ca-23ec6b89453c"},"once":false}︡{"done":true}︡
-︠73c63dc3-27f3-4617-bf40-493571e55d90︠
+︠73c63dc3-27f3-4617-bf40-493571e55d90s︠
+def fib(n):
+    """A recursive fibonacci function"""
+    return 1 if n<2 else fib(n-1) + fib(n-2)
 
-︡d1a01ac1-1461-4606-bf0e-fe8204a04c75︡
+print 'n  ', 'fib(n)'
+for i in range(0,10):
+    print i, '  ', fib(i)
+︡a16b7f1c-7652-4a5b-9543-0174ccc46b28︡{"stdout":"n   fib(n)\n"}︡{"stdout":"0    1\n1    1\n2    2\n3    3\n4    5\n5    8\n6    13\n7    21\n8    34\n9    55\n"}︡{"done":true}︡
 ︠d38f29f7-1862-490d-a674-59f328594bfa︠
 v = [(0,0,0)]
 for i in range(1000):
