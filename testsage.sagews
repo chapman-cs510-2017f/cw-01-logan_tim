@@ -7,8 +7,10 @@
 stats.TimeSeries(1000).randomize('normal').sums().plot()
 ︡56729667-b50c-457c-b7ba-0a5530a84aa4︡{"file":{"filename":"/home/user/.sage/temp/project-8d32991c-a188-4906-beaf-6d68642444da/1448/tmp_y6CaVF.svg","show":true,"text":null,"uuid":"7347e973-5fc3-4f88-b1ca-23ec6b89453c"},"once":false}︡{"done":true}︡
 ︠73c63dc3-27f3-4617-bf40-493571e55d90s︠
+
+	
+"""A recursive fibonacci function"""
 def fib(n):
-    """A recursive fibonacci function"""
     return 1 if n<2 else fib(n-1) + fib(n-2)
 
 print 'n  ', 'fib(n)'
